@@ -1,0 +1,147 @@
+.container {
+    position:relative;
+    min-height:500px;
+    min-width:800px;
+    background-color:#fff;
+    margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+}
+
+body, html{
+  margin:0px;
+  padding:0px;
+  font-family:arial, Sans-Serif;
+  font-size:12px;
+  background-color:#000;
+  
+}
+
+#header {
+    width:100%;
+    height:100px;
+    /*background-color:green*/
+    ;
+}
+.navbar {
+    /*background-color: red;*/
+    float: right;
+}
+.navli {
+    display: inline-block;
+    font-family: Arial;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.navli a {
+    text-decoration:none;
+    color: #404040;
+    font-size: 13px;
+    padding-left: 15px;
+}
+.navli a:hover {
+    text-decoration:underline;
+}
+
+.body{
+    position:absolute;
+    left:50%;
+    width:50%;
+    top:220px;
+    transform:translate(-50%);
+    text-align:center;
+    
+}
+.logo img{
+    width: 269px;
+    height:95px;
+    margin:15px;
+    
+}
+
+.searchbar {
+    width:400px;
+    height:35px;
+    margin: auto;
+    display:block;
+    /*background-color:red;*/
+    padding-top:10px;
+}
+
+#search{
+    width:400px;
+    height:35px;
+    margin:auto;
+}
+.buttons{
+    margin:auto;
+    margin-top:10px;
+    text-align:center;
+    
+}
+.button{
+   
+    border:none;
+    font-weight: bold;
+    font-family:Arial;
+    font-size:11px;
+    color:#757575;
+    background:#f2f2f2;
+    padding-left: 10px;
+    height:25px;
+    margin:10px;
+    
+}
+
+.footer {
+    margin:0;
+    padding:0;
+    background-color:#f2f2f2;
+    position:absolute;
+    width:100%;
+    
+    bottom:0;
+    clear:both;
+    display:block;
+    border-top: 1px solid #e4e4e4;
+    
+    
+}
+
+.leftfoot{
+    width:300px;
+    left:0;
+    display:inline-block;
+}
+
+.leftfoot li{
+    display:inline-block;
+}
+
+.leftfoot li a{
+    text-decoration:none;
+    color: #404040;
+    font-size: 13px;
+    font-family: Arial;
+    padding-left: 15px;
+}
+.rightfoot{
+    width:300px;
+    left:0;
+    display:inline-block;
+    float:right;
+}
+
+.rightfoot li{
+    display:inline-block;
+}
+
+.rightfoot li a{
+    text-decoration:none;
+    color: #404040;
+    font-size: 13px;
+    font-family: Arial;
+    padding-left: 15px;
+}
